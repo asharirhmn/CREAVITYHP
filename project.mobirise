@@ -30,7 +30,7 @@
     "versionFirst": "4.7.2",
     "uniqCompNum": 1,
     "versionPublish": "4.7.2",
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/crvt-100x100.png",
     "noImageResize": "",
     "google-analytics": "",
     "siteUrl": "undefined"
