@@ -8,6 +8,9 @@
 #header1-2 H1 {
   font-family: 'Lato', sans-serif;
 }
+#header1-2 B {
+  font-size: 100px;
+}
 #content4-3 H4 {
   text-align: right;
   font-family: 'Roboto', sans-serif;

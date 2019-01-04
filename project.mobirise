@@ -10,7 +10,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.7.2",
-    "uniqCompNum": 4,
+    "uniqCompNum": 5,
     "versionPublish": "4.7.2",
     "screenshot": "screenshot.png"
   },
@@ -18,8 +18,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "CREAVITY",
+        "meta_descr": "Nurture your brands and digitlize SME.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -88,7 +88,7 @@
           },
           "title": "<b>CREAVITY</b>",
           "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"><em>Nurture your brands, start here.</em></a> ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Learn more</a> ",
           "alias": "purity/components",
           "_tags": [
             "Theme"
@@ -99,6 +99,9 @@
             "H1": {
               "font-family": "'Lato', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            },
+            "B": {
+              "font-size": "100px"
             }
           }
         },
@@ -106,8 +109,8 @@
           "_params": {
             "showTitles": true,
             "showCaptions": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "2",
+            "paddingBottom": "2",
             "columns": 4,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
@@ -122,13 +125,13 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title1": "Branding &amp; Marketing",
+          "title1": "<b>Branding &amp; Marketing</b>",
           "caption1": "The pioneer helping your brand being proper &amp; ready to catch potential customer and audience through communication.",
-          "title2": "Creative Idea &amp; Advertising",
+          "title2": "<b>Creative Idea &amp; Advertising</b>",
           "caption2": "Producing new fresh ideas from collaboration between creative &amp; advertising to bring the great result for partners.",
-          "title3": "Social Media Contents &amp; Agency",
+          "title3": "<b>Social Media Contents &amp; Agency</b>",
           "caption3": "Act as agency to createa social crowds especially in digital by utilize mainstream social media as a platform that provide contents &amp; channels are highly influence.",
-          "title4": "Business Plan &amp; Strategy",
+          "title4": "<b>Business Plan &amp; Strategy</b>",
           "caption4": "Leverage &amp; translate your rough idea into details real action to bringing more business revenues. ",
           "alias": "purity/components",
           "_tags": [
