@@ -18,3 +18,10 @@
 #content4-3 P {
   text-align: left;
 }
+
+#menu-5 .navbar-toggler {
+  color: #000;
+}
+#content5-6 .mbr-section-title {
+  font-family: 'Lato', sans-serif;
+}

@@ -1,7 +1,7 @@
 {
   "settings": {
-    "name": "Site-01-04_1647",
-    "currentPage": "index.html",
+    "name": "CREAVITY",
+    "currentPage": "showcase.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -10,9 +10,14 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.7.2",
-    "uniqCompNum": 5,
+    "uniqCompNum": 7,
     "versionPublish": "4.7.2",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "siteUrl": "",
+    "sitemapSwitcherAuto": "on",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": ""
   },
   "pages": {
     "index.html": {
@@ -27,7 +32,7 @@
       "components": [
         {
           "_params": {
-            "logo": true,
+            "logo": false,
             "showBrand": false,
             "showButtons": false,
             "sticky": true,
@@ -36,7 +41,7 @@
             "color": "#fff",
             "hamburgerColor": "#000"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">Showcase</a></li>    ",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"showcase.html\">Showcase</a></li>    ",
           "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
           "logo": {
             "image": {
@@ -113,7 +118,7 @@
             "paddingBottom": "2",
             "columns": 4,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
             "bgColor": "#fff",
@@ -147,6 +152,89 @@
             },
             "P": {
               "text-align": "left"
+            }
+          }
+        }
+      ]
+    },
+    "showcase.html": {
+      "settings": {
+        "title": "CREAVITY - Showcase",
+        "order": 1
+      },
+      "components": [
+        {
+          "_params": {
+            "logo": false,
+            "showBrand": false,
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "color": "#fff",
+            "hamburgerColor": "#000"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"showcase.html\">Showcase</a></li>    ",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/crvt-100x100.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">CREAVITY</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000"
+            }
+          },
+          "_anchor": "menu-5"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.7
+          },
+          "title": "<b>MENITIP.COM</b>",
+          "caption": "Coming soon and check now on <a href=\"https://menitip.creavity.id\" target=\"_blank\">https://menitip.creavity.id</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-6",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
             }
           }
         }
